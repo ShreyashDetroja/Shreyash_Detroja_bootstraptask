@@ -1,0 +1,54 @@
+.navbar {
+  padding: 0.5rem 1.5rem;
+}
+.navbar-brand {
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+.mainContent {
+  display: flex;
+  flex-direction: row;
+}
+.content1,
+.content2 {
+  width: 50%;
+}
+.content2 {
+  margin-left: 6rem;
+}
+strong {
+  display: flex;
+  flex-direction: column;
+}
+svg:not(:root) {
+  overflow: hidden;
+  color: white;
+}
+.icon-brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container {
+  text-align: center;
+  margin-top: 5rem;
+}
+.card-container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-direction: initial;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.card {
+  margin: 0.5rem;
+}
+.btn-time {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
